@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       filename: './src/database/db.sqlite'
     },
-    migrations:{
+    migrations: {
       directory: './src/database/migrations'
     },
     useNullAsDefault: true,
@@ -18,7 +18,7 @@ module.exports = {
     connection: {
       filename: './src/database/test.sqlite'
     },
-    migrations:{
+    migrations: {
       directory: './src/database/migrations'
     },
     useNullAsDefault: true,
@@ -28,7 +28,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
@@ -44,7 +44,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
